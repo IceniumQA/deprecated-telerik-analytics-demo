@@ -12,7 +12,7 @@
 		isMonitorStarted = false,
 		isFeatureTrackingActive = false,
 		version = "0.0.0.1",
-		productKey = "", //Provide a valid product key for EQATEC Application Analytics by Telerik
+		productKey = "", //Provide a valid product key for Telerik Analytics by Telerik
 		installationId = "sample@domain.com";
 
 	document.addEventListener("touchstart", function () { }, false);
