@@ -182,11 +182,12 @@
 			};
 
 			analyticsFactory.CreateMonitorWithSettings(settings,
-				function () { log("Monitor created"); },
+				function () { 
+                    log("Monitor created");
+                	monitor.SetInstallationInfo(installationId);
+                },
 				function (msg) { log('Error creating monitor: ' + msg); }
 			);
-
-			monitor.SetInstallationInfo(installationId);
 		}
 
 		$("#startStopMonitor").on("click", function () { toggleMonitor(monitor); });
