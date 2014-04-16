@@ -183,9 +183,9 @@
 
 			analyticsFactory.CreateMonitorWithSettings(settings,
 				function () { 
-                    log("Monitor created");
-                	monitor.SetInstallationInfo(installationId);
-                },
+                    		    log("Monitor created");
+                		    monitor.SetInstallationInfo(installationId);
+		                },
 				function (msg) { log('Error creating monitor: ' + msg); }
 			);
 		}
