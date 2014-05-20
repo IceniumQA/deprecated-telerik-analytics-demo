@@ -13,7 +13,6 @@
 		isFeatureTrackingActive = false,
 		version = "0.0.0.1",
 		productKey = "", //Provide a valid product key for Telerik Analytics by Telerik
-		installationId = "sample@domain.com";
 
 	document.addEventListener("touchstart", function () { }, false);
 	document.addEventListener("deviceready", function () { init(); }, false);
@@ -184,7 +183,6 @@
 			analyticsFactory.CreateMonitorWithSettings(settings,
 				function () { 
                     		    log("Monitor created");
-                		    monitor.SetInstallationInfo(installationId);
 		                },
 				function (msg) { log('Error creating monitor: ' + msg); }
 			);
