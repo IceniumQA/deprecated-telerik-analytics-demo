@@ -1,75 +1,77 @@
 {
-  "ProjectGuid": "24ad526a-a174-4a1d-b9d0-b65193d2b446",
-  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "AppIdentifier": "com.telerik.sampleanalytics",
-  "ProjectName": "sample-analytics",
-  "FrameworkVersion": "3.5.0",
-  "AndroidPermissions": [
-    "android.permission.CAMERA",
-    "android.permission.VIBRATE",
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.READ_PHONE_STATE",
-    "android.permission.INTERNET",
-    "android.permission.RECEIVE_SMS",
-    "android.permission.RECORD_AUDIO",
-    "android.permission.MODIFY_AUDIO_SETTINGS",
-    "android.permission.READ_CONTACTS",
-    "android.permission.WRITE_CONTACTS",
-    "android.permission.WRITE_EXTERNAL_STORAGE",
-    "android.permission.ACCESS_NETWORK_STATE",
-    "android.permission.ACCOUNT_MANAGER",
-    "android.permission.GET_ACCOUNTS",
-    "android.permission.MANAGE_ACCOUNTS",
-    "android.permission.BROADCAST_STICKY"
-  ],
-  "CorePlugins": [
-    "org.apache.cordova.battery-status",
-    "org.apache.cordova.camera",
-    "org.apache.cordova.media-capture",
-    "org.apache.cordova.console",
-    "org.apache.cordova.contacts",
-    "org.apache.cordova.device",
-    "org.apache.cordova.device-motion",
-    "org.apache.cordova.device-orientation",
-    "org.apache.cordova.file",
-    "org.apache.cordova.file-transfer",
-    "org.apache.cordova.geolocation",
-    "org.apache.cordova.globalization",
-    "org.apache.cordova.inappbrowser",
-    "org.apache.cordova.media",
-    "org.apache.cordova.network-information",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.splashscreen",
-    "com.telerik.plugin.eqatecanalytics",
-    "org.apache.cordova.vibration"
-  ],
-  "DeviceOrientations": [
-    "Portrait",
-    "Landscape"
-  ],
-  "iOSStatusBarStyle": "Default",
-  "AndroidHardwareAcceleration": "false",
-  "BundleVersion": "1.0",
-  "iOSDisplayName": "",
-  "iOSDeviceFamily": [
-    "1",
-    "2"
-  ],
-  "AndroidVersionCode": "1",
-  "DisplayName": "",
-  "WP8SupportedResolutions": [
-    "ID_RESOLUTION_WVGA",
-    "ID_RESOLUTION_WXGA",
-    "ID_RESOLUTION_HD720P"
-  ],
-  "Framework": "Cordova",
-  "Author": "",
-  "Description": "sample-analytics",
-  "CordovaPluginVariables": {
-    "com.telerik.mobiletesting": {
-      "IOS_APP_URL": ""
-    }
-  }
+	"ProjectGuid": "24ad526a-a174-4a1d-b9d0-b65193d2b446",
+	"ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+	"AppIdentifier": "com.telerik.sampleanalytics",
+	"ProjectName": "sample-analytics",
+	"FrameworkVersion": "3.7.0",
+	"AndroidPermissions": [
+		"android.permission.CAMERA",
+		"android.permission.VIBRATE",
+		"android.permission.ACCESS_COARSE_LOCATION",
+		"android.permission.ACCESS_FINE_LOCATION",
+		"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+		"android.permission.READ_PHONE_STATE",
+		"android.permission.INTERNET",
+		"android.permission.RECEIVE_SMS",
+		"android.permission.RECORD_AUDIO",
+		"android.permission.MODIFY_AUDIO_SETTINGS",
+		"android.permission.READ_CONTACTS",
+		"android.permission.WRITE_CONTACTS",
+		"android.permission.WRITE_EXTERNAL_STORAGE",
+		"android.permission.ACCESS_NETWORK_STATE",
+		"android.permission.ACCOUNT_MANAGER",
+		"android.permission.GET_ACCOUNTS",
+		"android.permission.MANAGE_ACCOUNTS",
+		"android.permission.BROADCAST_STICKY"
+	],
+	"CorePlugins": [
+		"org.apache.cordova.battery-status",
+		"org.apache.cordova.camera",
+		"org.apache.cordova.media-capture",
+		"org.apache.cordova.console",
+		"org.apache.cordova.contacts",
+		"org.apache.cordova.device",
+		"org.apache.cordova.device-motion",
+		"org.apache.cordova.device-orientation",
+		"org.apache.cordova.file",
+		"org.apache.cordova.file-transfer",
+		"org.apache.cordova.geolocation",
+		"org.apache.cordova.globalization",
+		"org.apache.cordova.inappbrowser",
+		"org.apache.cordova.media",
+		"org.apache.cordova.network-information",
+		"org.apache.cordova.dialogs",
+		"org.apache.cordova.splashscreen",
+		"com.telerik.plugin.eqatecanalytics",
+		"org.apache.cordova.vibration"
+	],
+	"DeviceOrientations": [
+		"Portrait",
+		"Landscape"
+	],
+	"iOSStatusBarStyle": "Default",
+	"AndroidHardwareAcceleration": "false",
+	"BundleVersion": "1.0",
+	"iOSDeviceFamily": [
+		"1",
+		"2"
+	],
+	"AndroidVersionCode": "1",
+	"DisplayName": "sample-analytics",
+	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_WVGA",
+		"ID_RESOLUTION_WXGA",
+		"ID_RESOLUTION_HD720P"
+	],
+	"Framework": "Cordova",
+	"Author": "",
+	"Description": "sample-analytics",
+	"CordovaPluginVariables": {
+		"com.telerik.mobiletesting": {
+			"IOS_APP_URL": ""
+		}
+	},
+	"projectVersion": 1,
+	"WP8PublisherID": "{1db157b5-47ae-4d43-aa39-066e0c7ef5b9}",
+	"WP8ProductID": "{f3cecf54-14be-4c01-bde7-1b5dc806dfcd}"
 }
