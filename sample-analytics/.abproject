@@ -71,7 +71,5 @@
 			"IOS_APP_URL": ""
 		}
 	},
-	"projectVersion": 1,
-	"WP8PublisherID": "{1db157b5-47ae-4d43-aa39-066e0c7ef5b9}",
-	"WP8ProductID": "{f3cecf54-14be-4c01-bde7-1b5dc806dfcd}"
+	"projectVersion": 1
 }
