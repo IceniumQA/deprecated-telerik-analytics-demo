@@ -57,7 +57,7 @@
 		"2"
 	],
 	"AndroidVersionCode": "1",
-	"DisplayName": "sample-analytics",
+	"DisplayName": "Telerik-analytics",
 	"WP8SupportedResolutions": [
 		"ID_RESOLUTION_WVGA",
 		"ID_RESOLUTION_WXGA",
@@ -65,6 +65,11 @@
 	],
 	"Framework": "Cordova",
 	"Author": "",
+	"WP8Publisher": "",
+	"WP8TileTitle": "",
+	"WP8Capabilities": [],
+	"iOSBackgroundMode": [],
+	"WP8Requirements": [],
 	"Description": "sample-analytics",
 	"CordovaPluginVariables": {
 		"com.telerik.mobiletesting": {
