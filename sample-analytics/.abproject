@@ -59,9 +59,9 @@
 	"AndroidVersionCode": "1",
 	"DisplayName": "Telerik-analytics",
 	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_HD720P",
 		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA",
-		"ID_RESOLUTION_HD720P"
+		"ID_RESOLUTION_WXGA"
 	],
 	"Framework": "Cordova",
 	"Author": "",
@@ -76,5 +76,9 @@
 			"IOS_APP_URL": ""
 		}
 	},
-	"projectVersion": 1
+	"projectVersion": 1,
+	"WP8PublisherID": "{691f64b7-8549-4399-abb3-7e881990c1a0}",
+	"WP8ProductID": "{b4129271-7d2d-4436-9045-6c81bda9ae6d}",
+	"WP8PackageIdentityName": "1234Telerik.com.telerik.sampleanalytics",
+	"WP8WindowsPublisherName": "CN=Telerik"
 }
